@@ -65,31 +65,50 @@
 
 // string
 
-const name = 'joe bid';
+// const name = 'joe bid';
 
-// number
+// // number
 
-const age = 40;
+// const age = 40;
 
-// boolean
+// // boolean
 
-const haskid = true;
+// const haskid = true;
 
-// null 
-const car = null;
+// // null 
+// const car = null;
 
-// undefined
-let text;
+// // undefined
+// let text;
 
-// symbol
-const sym =Symbol()
+// // symbol
+// const sym =Symbol()
 
-// REFERENCE TYPE - OBJECTS
-//Array
+// // REFERENCE TYPE - OBJECTS
+// //Array
 
-const favourite = ['peanut', 'rice']
+// const favourite = ['peanut', 'rice']
 
-// object literal
+// // object literal
 
-console.log (typeof favourite);
+// const address = {
+//     city: 'Aba',
+//     state: 'Abia'
+// }
 
+// const today = new Date();
+// console.log(today);
+
+
+// console.log (typeof today);
+
+let val;
+
+// number to string
+val = String(444);
+val = String(8+8);
+
+// output
+console.log(val);
+console.log(typeof val);
+console.log(val.length);
