@@ -14,13 +14,25 @@
 
 // var, let, const
 
+//var name = 'High Chief';
+//console.log(name);
+//name = 'Steve John'
+//console.log(name);
+
+// Init Var
+//var greeting;
+//console.log(greeting);
+//greeting = 'Hello';
+//console.log(greeting);
+
+// multi word vars
+
+//var firstName = 'John'; // camel case
+//var first_name = 'sarah'; // underscore
+//var FirstName = 'Tom'; // pascal case
+
+// LET
 var name = 'High Chief';
 console.log(name);
 name = 'Steve John'
 console.log(name);
-
-// Init Var
-var greeting;
-console.log(greeting);
-greeting = 'Hello';
-console.log(greeting);
