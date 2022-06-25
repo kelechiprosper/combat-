@@ -46,13 +46,25 @@
 // Have to assign a value
 //const greeting;
 
-const person = {
-    name: 'ken',
-    age: 30
-}
+//const person = {
+   // name: 'ken',
+  //  age: 30
+//}
 
-person.name = 'sam',
-person.age = 50;
+//person.name = 'sam',
+//person.age = 50;
 
-console.log(person);
+//console.log(person);
 
+//const numbers = [1,2,3];
+//numbers.push(4);
+
+//console.log(numbers);
+
+//PRIMITIVE
+
+// string
+
+const name = 'joe bid';
+
+console.log (typeof name);
