@@ -67,4 +67,23 @@
 
 const name = 'joe bid';
 
-console.log (typeof name);
+// number
+
+const age = 40;
+
+// boolean
+
+const haskid = true;
+
+// null 
+const car = null;
+
+// undefined
+let text;
+
+// symbol
+const sym =Symbol()
+
+
+console.log (typeof sym);
+
