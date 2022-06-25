@@ -38,8 +38,21 @@
 // console.log(name);
 
 // CONST
-const name = 'jude';
-console.log(name);
+//const name = 'jude';
+//console.log(name);
 //can not reasign
 //name = 'john';
 //console.log(name);
+// Have to assign a value
+//const greeting;
+
+const person = {
+    name: 'ken',
+    age: 30
+}
+
+person.name = 'sam',
+person.age = 50;
+
+console.log(person);
+
