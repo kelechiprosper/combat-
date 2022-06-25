@@ -84,6 +84,12 @@ let text;
 // symbol
 const sym =Symbol()
 
+// REFERENCE TYPE - OBJECTS
+//Array
 
-console.log (typeof sym);
+const favourite = ['peanut', 'rice']
+
+// object literal
+
+console.log (typeof favourite);
 
