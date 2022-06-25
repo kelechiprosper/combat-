@@ -32,7 +32,14 @@
 //var FirstName = 'Tom'; // pascal case
 
 // LET
-var name = 'High Chief';
+// var name = 'High Chief';
+// console.log(name);
+// name = 'Steve John'
+// console.log(name);
+
+// CONST
+const name = 'jude';
 console.log(name);
-name = 'Steve John'
-console.log(name);
+//can not reasign
+//name = 'john';
+//console.log(name);
