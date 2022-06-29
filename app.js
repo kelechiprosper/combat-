@@ -108,7 +108,34 @@ let val;
 val = String(444);
 val = String(8+8);
 
+// bool to string
+val = String(true);
+
+// Date to string
+
+val = String(new Date());
+
+//Array to string
+val = ([1,2,3,4]);
+
+//toString()
+
+val = (5).toString();
+val = (true).toString();
+
+//string to number
+val = Number('5');
+val = Number(true);
+val = Number(false);
+val = Number([1,2,3]);
+val = Number('hello');
+val = Number(null);
+
+val = parseInt('200.30');
+val = parseFloat('200.30');
+
 // output
 console.log(val);
 console.log(typeof val);
-console.log(val.length);
+//console.log(val.length);
+console.log(val.toFixed(2));
