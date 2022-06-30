@@ -102,40 +102,63 @@
 
 // console.log (typeof today);
 
-let val;
+//let val;
 
 // number to string
-val = String(444);
-val = String(8+8);
+// val = String(444);
+// val = String(8+8);
 
-// bool to string
-val = String(true);
+// // bool to string
+// val = String(true);
 
-// Date to string
+// // Date to string
 
-val = String(new Date());
+// val = String(new Date());
 
-//Array to string
-val = ([1,2,3,4]);
+// //Array to string
+// val = ([1,2,3,4]);
 
-//toString()
+// //toString()
 
-val = (5).toString();
-val = (true).toString();
+// val = (5).toString();
+// val = (true).toString();
 
-//string to number
-val = Number('5');
-val = Number(true);
-val = Number(false);
-val = Number([1,2,3]);
-val = Number('hello');
-val = Number(null);
+// //string to number
+// val = Number('5');
+// val = Number(true);
+// val = Number(false);
+// val = Number([1,2,3]);
+// val = Number('hello');
+// val = Number(null);
 
-val = parseInt('200.30');
-val = parseFloat('200.30');
+// val = parseInt('200.30');
+// val = parseFloat('200.30');
 
-// output
+// // output
+// //console.log(val);
+// //console.log(typeof val);
+// //console.log(val.length);
+// //console.log(val.toFixed(2));
+
+// const val1 = String ('7');
+// const val2 = 9;
+// const sum = (val1 + val2);
+// console.log(sum);
+// console.log(typeof sum);
+
+const num1 = 100;
+const num2 = 40;
+let val;
+
+//simple maths with number
+
+val = num1 + num2;
+val = num1 * num2;
+val = num1 - num2;
+val = num1 / num2;
+val = num1 % num2;
+
+// maths object
+
+
 console.log(val);
-console.log(typeof val);
-//console.log(val.length);
-console.log(val.toFixed(2));
