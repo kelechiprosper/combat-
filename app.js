@@ -159,6 +159,18 @@ val = num1 / num2;
 val = num1 % num2;
 
 // maths object
+ val = Math.PI;
+ val = Math.E;
+ val = Math.round(2.4);
+ val = Math.ceil(2.4);
+ val = Math.floor(2.8);
+ val = Math.sqrt(64);
+ val = Math.abs(-3);
+ val = Math.pow(8, 4);
+val = Math.min(30, 5, 6, 2);
+val = Math.max(20, 15, 6);
+val = Math.random();
 
+val = Math.floor(Math.random() * 30 + 1);
 
 console.log(val);
