@@ -193,6 +193,12 @@ val = 'Hello, my name is ' + firstName +  ' I am  ' + age
 
 val = "that's superb, i can't even wait";
 
+// length
+val = firstName.length;
+
+//concat()
+val = firstName.concat(' ', lastName);
+
 
 
 console.log(val);
