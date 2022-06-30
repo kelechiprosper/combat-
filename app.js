@@ -189,5 +189,10 @@ val += 'Chief';
 
 val = 'Hello, my name is ' + firstName +  ' I am  ' + age
 
+// Escaping
+
+val = "that's superb, i can't even wait";
+
+
 
 console.log(val);
