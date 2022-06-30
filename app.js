@@ -199,6 +199,8 @@ val = firstName.length;
 //concat()
 val = firstName.concat(' ', lastName);
 
-
+// change case
+val = firstName.toUpperCase();
+val = lastName.toUpperCase();
 
 console.log(val);
