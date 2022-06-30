@@ -146,31 +146,40 @@
 // console.log(sum);
 // console.log(typeof sum);
 
-const num1 = 100;
-const num2 = 40;
+// const num1 = 100;
+// const num2 = 40;
 let val;
 
 //simple maths with number
 
-val = num1 + num2;
-val = num1 * num2;
-val = num1 - num2;
-val = num1 / num2;
-val = num1 % num2;
+// val = num1 + num2;
+// val = num1 * num2;
+// val = num1 - num2;
+// val = num1 / num2;
+// val = num1 % num2;
 
-// maths object
- val = Math.PI;
- val = Math.E;
- val = Math.round(2.4);
- val = Math.ceil(2.4);
- val = Math.floor(2.8);
- val = Math.sqrt(64);
- val = Math.abs(-3);
- val = Math.pow(8, 4);
-val = Math.min(30, 5, 6, 2);
-val = Math.max(20, 15, 6);
-val = Math.random();
+// // maths object
+//  val = Math.PI;
+//  val = Math.E;
+//  val = Math.round(2.4);
+//  val = Math.ceil(2.4);
+//  val = Math.floor(2.8);
+//  val = Math.sqrt(64);
+//  val = Math.abs(-3);
+//  val = Math.pow(8, 4);
+// val = Math.min(30, 5, 6, 2);
+// val = Math.max(20, 15, 6);
+// val = Math.random();
 
-val = Math.floor(Math.random() * 30 + 1);
+// val = Math.floor(Math.random() * 30 + 1);
+
+const firstName = 'High';
+const lastName = 'Chief';
+
+val = firstName + lastName;
+
+// concatinate
+
+val = firstName + ' ' + lastName;
 
 console.log(val);
