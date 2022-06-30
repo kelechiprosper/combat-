@@ -175,11 +175,19 @@ let val;
 
 const firstName = 'High';
 const lastName = 'Chief';
+const age = 30;
 
 val = firstName + lastName;
 
 // concatinate
 
 val = firstName + ' ' + lastName;
+
+// Append
+val = 'High ';
+val += 'Chief';
+
+val = 'Hello, my name is ' + firstName +  ' I am  ' + age
+
 
 console.log(val);
