@@ -214,9 +214,10 @@ val = firstName.charAt('2');
 val = firstName.charAt(firstName.length - 1);
 
 // substring
-
 val = firstName.substring(0,4);
 
+//slice()
+val = firstName.slice(-3);
 
 
 
