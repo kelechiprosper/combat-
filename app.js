@@ -203,4 +203,22 @@ val = firstName.concat(' ', lastName);
 val = firstName.toUpperCase();
 val = lastName.toUpperCase();
 
+val = firstName[2];
+
+//indexof()
+val = firstName.indexOf('g');
+val = firstName.lastIndexOf('i');
+
+//charAt()
+val = firstName.charAt('2');
+val = firstName.charAt(firstName.length - 1);
+
+// substring
+
+val = firstName.substring(0,4);
+
+
+
+
+
 console.log(val);
