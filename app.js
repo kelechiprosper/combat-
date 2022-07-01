@@ -228,6 +228,9 @@ val = tag.split(',');
 // replace()
 val = str.replace('kelechi', 'king');
 
+//include()
+val = str.includes('Hello')
+
 
 
 console.log(val);
