@@ -225,7 +225,8 @@ val = firstName.slice(-3);
 val = str.split(' ');
 val = tag.split(',');
 
-
+// replace()
+val = str.replace('kelechi', 'king');
 
 
 
