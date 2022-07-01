@@ -148,7 +148,7 @@
 
 // const num1 = 100;
 // const num2 = 40;
-let val;
+//let val;
 
 //simple maths with number
 
@@ -173,64 +173,95 @@ let val;
 
 // val = Math.floor(Math.random() * 30 + 1);
 
-const firstName = 'High';
-const lastName = 'Chief';
-const age = 30;
-const str = 'Hello dear, my name is kelechi';
-const tag = 'web development,programming,web developer';
+// const firstName = 'High';
+// const lastName = 'Chief';
+// const age = 30;
+// const str = 'Hello dear, my name is kelechi';
+// const tag = 'web development,programming,web developer';
 
-val = firstName + lastName;
+// val = firstName + lastName;
 
-// concatinate
+// // concatinate
 
-val = firstName + ' ' + lastName;
+// val = firstName + ' ' + lastName;
 
-// Append
-val = 'High ';
-val += 'Chief';
+// // Append
+// val = 'High ';
+// val += 'Chief';
 
-val = 'Hello, my name is ' + firstName +  ' I am  ' + age
+// val = 'Hello, my name is ' + firstName +  ' I am  ' + age
 
-// Escaping
+// // Escaping
 
-val = "that's superb, i can't even wait";
+// val = "that's superb, i can't even wait";
 
-// length
-val = firstName.length;
+// // length
+// val = firstName.length;
 
-//concat()
-val = firstName.concat(' ', lastName);
+// //concat()
+// val = firstName.concat(' ', lastName);
 
-// change case
-val = firstName.toUpperCase();
-val = lastName.toUpperCase();
+// // change case
+// val = firstName.toUpperCase();
+// val = lastName.toUpperCase();
 
-val = firstName[2];
+// val = firstName[2];
 
-//indexof()
-val = firstName.indexOf('g');
-val = firstName.lastIndexOf('i');
+// //indexof()
+// val = firstName.indexOf('g');
+// val = firstName.lastIndexOf('i');
 
-//charAt()
-val = firstName.charAt('2');
-val = firstName.charAt(firstName.length - 1);
+// //charAt()
+// val = firstName.charAt('2');
+// val = firstName.charAt(firstName.length - 1);
 
-// substring
-val = firstName.substring(0,4);
+// // substring
+// val = firstName.substring(0,4);
 
-//slice()
-val = firstName.slice(-3);
+// //slice()
+// val = firstName.slice(-3);
 
-//split
-val = str.split(' ');
-val = tag.split(',');
+// //split
+// val = str.split(' ');
+// val = tag.split(',');
 
-// replace()
-val = str.replace('kelechi', 'king');
+// // replace()
+// val = str.replace('kelechi', 'king');
 
-//include()
-val = str.includes('Hello')
+// //include()
+// val = str.includes('Hello')
 
 
+const name = 'preist';
+const age = '30';
+const job = 'web developer';
+const country = 'Nigeria';
+let html;
 
-console.log(val);
+//Without templete strings (es5)
+html = '<ul><li>Name: ' + name + '<li><li>Age: ' + age + '</li><li> Job: ' + job + '</li><li>Country: ' + 
+country + '</li></ul>';
+
+
+html = '<ul>' +
+        '<li>Name: ' + name + '<li>' +
+        '<li>Age: ' + age + '<li>' +
+        '<li>Job: ' + job + '<li>' +
+        '<li>Country: ' + country + '<li>';
+
+
+// with template  strings (es6)
+html = `
+  <ul>
+  <li>Name: ${name}</li>
+  <li>Age: ${age}</li>
+  <li>Job: ${job}</li>
+  <li>Country: ${country}</li>
+  </ul>
+`;
+
+
+document.body.innerHTML = html;
+
+
+ 
