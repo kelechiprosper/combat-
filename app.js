@@ -176,6 +176,8 @@ let val;
 const firstName = 'High';
 const lastName = 'Chief';
 const age = 30;
+const str = 'Hello dear, my name is kelechi';
+const tag = 'web development,programming,web developer';
 
 val = firstName + lastName;
 
@@ -218,6 +220,11 @@ val = firstName.substring(0,4);
 
 //slice()
 val = firstName.slice(-3);
+
+//split
+val = str.split(' ');
+val = tag.split(',');
+
 
 
 
